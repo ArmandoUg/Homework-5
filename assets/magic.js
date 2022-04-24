@@ -10,7 +10,7 @@ function maketimeblocks(hour, existingtodo="") {
     <div class="hour col-1">${hour}:00</div>
     <textarea name="" id="${hour}" cols="30" rows="3" class="description col-9 ${timetense}">${existingtodo || ""}</textarea>
     <button class="btn saveBtn col-2">
-    <img src="/assets/save-solid.svg" width=10% </div>
+    <img src="./assets/save-solid.svg" width=10% </div>
     </div>`))
 }
 
